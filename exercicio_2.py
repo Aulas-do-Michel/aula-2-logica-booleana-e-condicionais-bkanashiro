@@ -20,5 +20,5 @@ posição = int(input('Digite a posição da variante: '))
 if cromossomo == 'chr17' and 41196312 <= posição <= 41277500:
 	print ("Sim")
 else:
-    print ("Não")
+	print ("Não")
 
