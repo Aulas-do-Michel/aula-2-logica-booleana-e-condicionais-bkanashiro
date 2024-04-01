@@ -12,7 +12,7 @@ Responde:
 Considere que a variante está no gene BRCA1 se estiver no cromossomo 17 (chr17), e se a posição estiver no intevalo de 41196312 a 41277500.
 
 Obs: Tirei a localização daqui: https://grch37.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000012048;r=17:41196312-41277500.
-
+"""
 
 cromossomo = input('Digite o cromossomo: ')
 posição = int(input('Digite a posição da variante: '))
