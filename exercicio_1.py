@@ -5,6 +5,6 @@ Receba um número inteiro de um usuário. Se ele for par, imprima "Par". Se não
 
 numero = int(input('Digite um número inteiro: '))
 if numero % 2 == 0:
-    print('O número é par')
+    print('Par')
 else:
-    print('O número é impar')
+    print('Ímpar')
