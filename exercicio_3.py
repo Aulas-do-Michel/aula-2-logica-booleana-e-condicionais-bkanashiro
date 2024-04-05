@@ -58,19 +58,18 @@ Não
 
 
 cromossomo = input('Digite o cromossomo da variante: ')
+genomaref = input('Digite o genoma de referência da variante: ')
+posicao = int(input('Digite a posição da variante: '))
 
 if cromossomo == "chr17":
-    genomaref = input("Digite o genoma de referência da variante: ")
     if genomaref == "hg19":
-        posicao = int(input("Digite a posição da variante: "))
         if 41196312 <= posicao <= 41277500:
-            print("Sim")
+            print('Sim')
         else:
             print("Não")
     elif genomaref == "hg38":
-        posicao = int(input("Digite a posição da variante: "))
         if 43044295 <= posicao <= 43125483:
-            print("Sim")
+            print('Sim')
         else:
             print("Não")
     else:
