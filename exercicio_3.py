@@ -57,9 +57,9 @@ Não
 """
 
 cromossomo = input('Digite o cromossomo da variante: ')
-genomaref = input("Digite o genoma de referência da variante: ")
 
 if cromossomo == "chr17":
+    genomaref = input("Digite o genoma de referência da variante: ")
     if genomaref == "hg19":
         posicao = int(input("Digite a posição da variante: "))
         if 41196312 <= posicao <= 41277500:
