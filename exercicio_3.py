@@ -56,7 +56,6 @@ Não
 
 """
 
-import sys
 
 cromossomo = input('Digite o cromossomo da variante: ')
 
